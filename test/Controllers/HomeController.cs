@@ -12,6 +12,7 @@ namespace test.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.aa = "dsds";
             return View();
         }
 
